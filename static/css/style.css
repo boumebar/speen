@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+#canvas-container{
+    
+    position: relative;
+    border: 1px solid #ccc;
+    width: 500px;
+    margin: 3em auto;
+    padding: 2em;
+
+}
+
+
+ 
+#canvas {
+    z-index: 1;
+}
+ 
+#PrizePointer {
+    position: absolute;
+    left: 257px;
+    top: 10px;
+    z-index: 999;
+}
